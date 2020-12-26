@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/runtime": "^7.4.5",
+    "@symfony/webpack-encore": "^0.27.0",
+    "babel-eslint": "^10.0.2",
+    "core-js": "^3.0.0",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.2.2",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "sass-loader": "^7.0.1",
+    "webpack-notifier": "^1.6.0"
+  },
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress",
+    "csfix": "eslint assets/vue --ext .js,.vue, --fix"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "bootstrap": "^4.5.3",
+    "gsap": "^3.5.1",
+    "include-media": "^1.4.9",
+    "jquery": "^3.5.1",
+    "paper": "^0.12.11",
+    "simplex-noise": "^2.4.0",
+    "smooth-scrollbar": "^8.5.3",
+    "swiper": "^6.4.1"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ]
+}

@@ -1,0 +1,65 @@
+@import "~normalize.css";
+@import "~include-media/dist/include-media";
+@import "~bootstrap";
+
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xx-view {
+  height: 100%;
+}
+
+.xx-layout {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+
+
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.cursor--small {
+  width: 5px;
+  height: 5px;
+  left: -2.5px;
+  top: -2.5px;
+  border-radius: 50%;
+  z-index: 11000;
+  background: red;
+}
+.cursor--canvas {
+  width: 100vw;
+  height: 100vh;
+  z-index: 12000;
+}
+
+nav {
+  a {
+    cursor: none;
+  }
+}
